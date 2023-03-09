@@ -1,2 +1,2 @@
 #!/bin/bash
-getent group | awk -F: '{print $1}'
+groups
